@@ -132,7 +132,7 @@ a:focus{
 .comming-soon-info{
 	width: 50%;
 	position: absolute;
-	background: #effbfa url(../images/namiko2.JPG) no-repeat right top;
+	background: #a1bebc url(../images/namiko2.JPG) no-repeat right top;
 	background-size: contain;
 	top: 0;
 	bottom: 0;
@@ -168,7 +168,7 @@ a:focus{
 .site-info p{
 	margin-top: 40px;
 	line-height: 1.8em;
-	color: #fff;
+	color: #ffffff;
 	font-weight: 300;
 }
 
@@ -287,7 +287,15 @@ a:focus{
 
 .portfolio-single{
 	width: 25%;
+	aspect-ratio: 1 / 1;
 	float: left;
+}
+
+.portfolio-single img {
+	object-fit: cover;
+    height: 100%;
+    width: 100%;
+    display: inline-flex;
 }
 
 @media only screen and (max-width:980px){
