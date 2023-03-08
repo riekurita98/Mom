@@ -132,7 +132,7 @@ a:focus{
 .comming-soon-info{
 	width: 50%;
 	position: absolute;
-	background: #a1bebc url(../images/namiko2.JPG) no-repeat right top;
+	background: #a1bebc url(../images/namiko7.jpg) no-repeat right top;
 	background-size: contain;
 	top: 0;
 	bottom: 0;
@@ -387,4 +387,42 @@ a:focus{
 		font-size: 12px;
 		font-weight: 300;
 	}
+}
+
+
+/* simple page */
+.simple{
+	width: 100%;
+	position: absolute;
+	background: #a1bebc;
+	/* background-size: contain; */
+	top: 0;
+	bottom: 0;
+	z-index: 2;
+	display: flex;
+	align-items: center;
+}
+
+.simple-info {
+	width: auto;
+	display: contents;
+}
+
+.simple-info-inner{
+	font-family: 'Times';
+	font-size: 18px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 70px 40px 30px 40px;
+    text-align: center;
+    border: white 3px solid;
+	color: #ffffff;
+}
+
+.simple-btn-submit {
+	margin: 25px auto;
+	font-size: 16px;
+    display: block;
+    width: 50%;
 }
